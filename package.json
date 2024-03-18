@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-array-crud",
+  "version": "1.0.0",
+  "description": "demo nodejs crud array",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longsoisuaxe1a/connect-nodejs-array-crud.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "phamvanhau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longsoisuaxe1a/connect-nodejs-array-crud/issues"
+  },
+  "homepage": "https://github.com/longsoisuaxe1a/connect-nodejs-array-crud#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}

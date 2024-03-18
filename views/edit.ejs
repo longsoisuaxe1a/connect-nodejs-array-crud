@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./edit.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Update Customers</h1>
+    <form action="/edit" method="post">
+      <table>
+        <td>
+          <!-- id -->
+          <input type="text" id="id" name="id" placeholder="Enter id" value="<%=customer.id%>" />
+          <span id="erId"></span>
+        </td>
+        <tr>
+          <td>
+            <!-- name -->
+            <input type="text" id="upName" name="upName" placeholder="Enter name" value="<%=customer.name%>" />
+            <span id="erName"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- email -->
+            <input
+              type="text"
+              id="upEmail"
+              name="upEmail"
+              placeholder="Enter email"
+              value="<%=customer.email%>"
+            />
+            <span id="erEmail"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- address -->
+            <input
+              type="text"
+              id="upAddress"
+              name="upAddress"
+              placeholder="Enter address"
+              value="<%=customer.address%>"
+            />
+            <span id="erAddress"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- total -->
+            <input
+              type="text"
+              id="upTotal"
+              name="upTotal"
+              placeholder="Enter total"
+              value="<%=customer.total%>"
+            />
+            <span id="erTotal"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- id -->
+            <input type="submit" value="Update" />
+          </td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
